@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Harshini Sangem - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "K9flC9Tjgy3P6w-L0",  //public key
+        });
+    })();
+    </script>
+<script src="script.js"></script>
+</head>
+<body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="profile">
+            <div class="profile-img">
+                <img src="images/PHOTO.jpeg" alt="Harshini Sangem">
+            </div>
+            <h1>Harshini Sangem</h1>
+            <p class="subtitle">MS in CS, University of Florida  </p>
+            <!-- MS in CS, University of Florida , CS Student, University of Florida-->
+        </div>
+        
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#home" class="active">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#portfolio">PROJECTS</a></li>
+                <li><a href="#expertise">SKILLS</a></li>
+                <li><a href="#publications">PUBLICATIONS</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#achievements">ACHIEVEMENTS</a></li>
+                <li><a href="#social-work">COMMUNITY WORK</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        
+        <div class="social-icons">
+            <a href="https://linkedin.com/in/harshini-sangem" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Harshini1814" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:harshinis1814@email.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+    </aside>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="home-bg">
+                <div class="overlay"></div>
+                <div class="home-content animate-fade-up">
+                    <h2>Hey,</h2>
+                    <h1>I'm Harshini</h1>
+                    <a  href="mailto:harshinis1814@email.com" class="contact-me-btn"><i class="fas fa-envelope"></i> Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-header animate-fade-up">
+                <span class="section-subtitle">ABOUT ME</span>
+                <h2 class="section-title">WHO AM I?</h2>
+            </div>
+            <div class="about-content">
+                <p class="about-text animate-fade-up">
+                    I am a <b>Master of Science </b>in <b>Computer Science</b> student at the <b>University of Florida</b> and an aspiring Software Engineer with a strong foundation in Artificial Intelligence, Machine Learning, and Software Development.
+I am an ambitious professional and curious learner with a passion for innovation and problem-solving. With hands-on experience leading impactful projects and collaborating in dynamic environments, I bring value to the teams I work with by consistently blending technical expertise, analytical thinking, and a growth-oriented mindset.
+                </p>
+                <p class="about-text animate-fade-up" style="animation-delay: 0.2s;">
+                    Beyond academics, I am a tech enthusiast who has participated in numerous national-level hackathons, securing top positions and showcasing my ability to deliver under pressure and drive innovation. I believe in continuous learning, embracing diverse perspectives, and staying adaptable in a fast-evolving technological landscape.
+                </p>
+               <p class="about-text animate-fade-up" style="animation-delay: 0.2s;">
+                    Outside the world of code and computation, I’m an avid traveler and adventure seeker who thrives on exploring new cultures, landscapes, and experiences. Whether it's hiking through serene mountains, capturing fleeting moments as a recreational photographer, or immersing myself in the unfamiliar, I find that these adventures not only refresh my perspective but also fuel my creativity.
+                </p>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="section-header animate-fade-up">
+                <span class="section-subtitle">MY Professional JOURNEY</span>
+                <h2 class="section-title">EXPERIENCE</h2>
+            </div>
+            <div class="experience-container">
+                <div class="experience-item animate-slide-right">
+                    <div class="experience-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Software Intern</h3>
+                        <h4>BOSCH Global Software Technologies</h4>
+                        <p class="experience-date">Feb 2025 - Mar 2025</p>
+                        <ul class="experience-details">
+                            <li>Designed and implemented a scalable benchmarking environment to evaluate Agentic AI frameworks (LangChain,
+ CrewAI, DSPy, and Autogen), addressing the challenge of inconsistent framework performance across tasks.</li>
+ </li>
+                            <li>Integrated Ollama and OpenAI models to simulate real-world user prompts, enabling intelligent response generation and
+ reducing manual testing time by 40%.</li>
+                            <li>Built optimized Retrieval-Augmented Generation (RAG) pipelines using ChromaDB for vector-based search
+ on domain-specific manufacturing datasets.</li>
+                            <li>Conducted a comparative analysis across key benchmarking metrics such as Bias Detection Score, Task Completion Rate and Hallucination Rate, leading to data-driven recommendations that improved framework selection
+ accuracy by 30% for internal stakeholders.</li>
+                        </ul>
+                        <br>
+                        <div class="portfolio-tags">
+                            <span class="tag">Agentic AI</span>
+                            <span class="tag">RAG</span>
+                            <span class="tag">VectorDB</span>
+                            <span class="tag">Benchmarking Frameworks</span>
+                            <span class="tag">LangChain</span>
+                            <span class="tag">Autogen</span>
+                            <span class="tag">Ollama models</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-item animate-slide-right" style="animation-delay: 0.5s;">
+                    <div class="experience-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Web Development Intern</h3>
+                        <h4>Uniwrap Packaging Solutions/ Internshala</h4>
+                        <p class="experience-date">Apr 2024 - Jun 2024</p>
+                        <ul class="experience-details">
+                            <li> Automated the content pipeline by designing an autoblogging system using WordPress and SEOwriting.ai,
+ reducing manual content effort by 70% while maintaining brand identity and SEO compliance.</li>
+                            <li>Implemented custom web scraping scripts to extract relevant data and trending topics from target domains while
+ enriching blog content and improving keyword relevance.</li>
+                            <li>Conducted data analysis on user behavior and site metrics to provide actionable e-commerce insights, enhancing
+ user engagement by 25% and boosting conversion rates by 15%</li>
+                        </ul>
+                        <br>
+                        <div class="portfolio-tags">
+                            <span class="tag">WordPress</span>
+                            <span class="tag">Third-party plugins</span>
+                            <span class="tag">Web Scraping</span>
+                            <span class="tag">SEO Compliance</span>
+                            <span class="tag">Data Analysis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!--Portfolio Section -->
+        <section id="portfolio" class="section">
+            <div class="section-header animate-fade-up">
+                <span class="section-subtitle">MY WORK</span>
+                <h2 class="section-title">PROJECTS</h2>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item animate-fade-up">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">CROPWISE COMPANION</h3>
+                        <p class="portfolio-description">
+                            Developed a smart agriculture web platform with 96% accurate Random Forest-based crop/fertilizer recommendations and image-based plant disease detection. Integrated investor-farmer matchmaking, resolving Flask-frontend integration for real-time data flow.
+                        </p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Random Forest Classifier</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">Firebase</span>
+                        </div>
+                        <div class="portfolio-actions">
+                            <a href="https://github.com/Harshini1814/CROPWISE-COMPANION" class="view-code-btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="16,18 22,12 16,6"></polyline>
+                                    <polyline points="8,6 2,12 8,18"></polyline>
+                                </svg>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item animate-fade-up" style="animation-delay: 0.2s;">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Poverty Estimation using Satellite Imagery </h3>
+                        <p class="portfolio-description">
+                            Led the development of a CNN model using ResNet-50 and adversarial training to estimate wealth index from satellite images with 90.8% accuracy, capturing socioeconomic indicators via geospatial mapping and reducing error rate by 25%.
+                        </p>
+                        <div class="portfolio-tags">
+                            <span class="tag">CNN</span>
+                            <span class="tag">ResNet</span>
+                            <span class="tag">Remote Sensing</span>
+                            <span class="tag">PyTorch</span>
+                            <!-- <span class="tag">APIs</span> -->
+                        </div>
+                        <div class="portfolio-actions">
+                            <a href="https://github.com/Harshini1814/satellite-poverty-estimator" class="view-code-btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="16,18 22,12 16,6"></polyline>
+                                    <polyline points="8,6 2,12 8,18"></polyline>
+                                </svg>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="portfolio-item animate-fade-up" style="animation-delay: 0.2s;">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">WEB-DUCATION</h3>
+                        <p class="portfolio-description">
+                            Designed an AI-powered educational platform using LangChain for note summarization and custom exams, integrated performance analytics with Python and visualization tools, and built an NLP-based interview prep tool using spaCy and Hugging Face for role-specific question generation.
+                        </p>
+                        <div class="portfolio-tags">
+                            <span class="tag">LangChainAI</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">Hugging Face</span>
+                            <span class="tag">SpaCy</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <div class="portfolio-actions">
+                            <a href="#" class="view-code-btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="16,18 22,12 16,6"></polyline>
+                                    <polyline points="8,6 2,12 8,18"></polyline>
+                                </svg>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+
+                
+         
+
+        <!-- Expertise Section -->
+        <section id="expertise" class="section">
+            <div class="section-header animate-fade-up">
+                <span class="section-subtitle">MY SKILLS</span>
+                <h2 class="section-title">EXPERTISE</h2>
+            </div>
+            <div class="expertise-content">
+                <div class="expertise-category animate-fade-up">
+                    <h3>Programming</h3>
+                    <div class="skills">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">R</span>
+                    </div>
+                </div>
+                <div class="expertise-category animate-fade-up" style="animation-delay: 0.2s;">
+                    <h3>Technologies</h3>
+                    <div class="skills">
+                        <span class="skill-tag">AWS Cloud</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Natural Language Processing</span>
+                        <span class="skill-tag">Internet of Things</span>
+                        <span class="skill-tag">Agentic AI</span>
+                        <span class="skill-tag">Data Analysis</span>
+                        <span class="skill-tag">Computer Vision</span>
+                        <span class="skill-tag">Generative AI</span>
+                        <span class="skill-tag">WordPress</span>
+                    </div>
+                </div>
+                <div class="expertise-category animate-fade-up" style="animation-delay: 0.3s;">
+                    <h3>Frameworks</h3>
+                    <div class="skills">
+                        <span class="skill-tag">Langchain</span>
+                        <span class="skill-tag">Numpy</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Tensorflow</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">OpenCV</span>
+                    </div>
+                </div>
+                <div class="expertise-category animate-fade-up" style="animation-delay: 0.3s;">
+                    <h3>Databases</h3>
+                    <div class="skills">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Oracle</span>
+                        <span class="skill-tag">ChromaDB</span>
+                        <span class="skill-tag">Pinecone</span>
+                    </div>
+                </div>
+                                <div class="expertise-category animate-fade-up" style="animation-delay: 0.3s;">
+                    <h3>Other Tools</h3>
+                    <div class="skills">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Linux/ Unix</span>
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">JIRA</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">MacOS</span>
+                        <span class="skill-tag">Windows</span>
+                    </div>
+                </div>
+                <div class="expertise-category animate-fade-up" style="animation-delay: 0.4s;">
+                    <h3>Soft Skills</h3>
+                    <div class="skills">
+                        <span class="skill-tag">Effective Communication</span>
+                        <span class="skill-tag">Stakeholder Management</span>
+                        <span class="skill-tag">Team Collaboration</span>
+                        <span class="skill-tag">Problem-Solving</span>
+                        <span class="skill-tag">Negotiation</span>
+                        <span class="skill-tag">Analytical Thinking</span>
+                        <span class="skill-tag">Resilience</span>
+                        <span class="skill-tag">Time and Task Management</span>
+                        <span class="skill-tag">Presentation Skills</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Publications Section -->
+        <section id="publications" class="section">
+            <div class="section-header animate-fade-up">
+                <span class="section-subtitle">MY research JOURNEY</span>
+                <h2 class="section-title">RESEARCH PUBLICATIONS</h2>
+            </div>
+            <div class="publication-container">
+                <div class="publication-item animate-slide-right">
+                    <div class="publication-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="publication-content">
+                        <h3>Tranquil Talk - A Chatbot for Mental Health</h3>
+                        <p class="publication-author">Authors: Dr. Arun Kodi, Harshini Sangem, Sowmya Nandigum, Tanvi P</p>
+                        <p>This research focuses on designing a mental health support chatbot using Google Dialogflow with personalized conversation flows and empathetic responses, resulting in a 60% increase in user engagement during pilot testing.</p><br>
+                         <div class="portfolio-tags">
+                            <span class="tag">Natural Language Processing</span>
+                            <span class="tag">Google Dialogflow</span>
+                        </div>
+                        <div class="portfolio-actions">
+                            <a href="#" class="view-code-btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="16,18 22,12 16,6"></polyline>
+                                    <polyline points="8,6 2,12 8,18"></polyline>
+                                </svg>
+                                View Publication
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="publication-item animate-slide-right">
+                    <div class="publication-icon">
+                        <i class="fas fa-wheelchair"></i> 
+                        <!-- fas fa-tint for blood group detection -->
+                    </div>
+                    <div class="publication-content">
+                        <h3> Promoting Sustainable Safety: Integrating Fall Detection for Person and Wheelchair Safety</h3>
+                        <p class="publication-author">Authors: Dr. Sanjeeva Polepaka, Harshini Sangem, Amrutha Varshini Aleti, Akshitha Ajjuri</p>
+                            <p>This research explores the development of a reliable fall detection system for elderly and wheelchair users by integrating MEMS sensors, Arduino UNO Micro-controller, GSM, and Wi-Fi modules, enabling real-time buzzer alerts during critical events.</p><br>
+                        <div class="portfolio-tags">
+                            <span class="tag">Internet of Things</span>
+                            <span class="tag">Arduino UNO</span>
+                            <span class="tag">GSM module</span>
+                            <span class="tag">MEMS Sensor</span>
+                        </div>
+                        <div class="portfolio-actions">
+                            <a href="	https://doi.org/10.1051/e3sconf/202450701025" class="view-code-btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="16,18 22,12 16,6"></polyline>
+                                    <polyline points="8,6 2,12 8,18"></polyline>
+                                </svg>
+                                View Publication
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="section-header animate-fade-up">
+                <span class="section-subtitle">MY ACADEMICS</span>
+                <h2 class="section-title">EDUCATION</h2>
+            </div>
+            
+            <div class="timeline-container">
+                <div class="timeline">
+                    <div class="timeline-item left animate-fade-up">
+                        <div class="timeline-content">
+                            <div class="timeline-card">
+                                <h3>Master of Science</h3>
+                                <span class="timeline-date">Aug 2025 - Present</span>
+                                <h4>Computer and Information Sciences</h4>
+                                <p>University of Florida, Gainesville, United States</p>
+                                <p class="timeline-description">
+                                    Relevant Coursework: Advanced Data Structures, Analysis of Algorithms, Advanced Machine Learning, Mathematics for Intelligent Systems, Distributed Operating System Principles
+                                </p>
+                                <!-- <span class="cgpa">CGPA : 4.0/4.0</span> -->
+                            </div>
+                        </div>
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    <div class="timeline-item right animate-fade-up" style="animation-delay: 0.2s;">
+                        <div class="timeline-content">
+                            <div class="timeline-card">
+                                <h3>Bachelor of Technology</h3>
+                                <span class="timeline-date">Aug 2021 - Jun 2025</span>
+                                <h4>Computer Science and Business Systems</h4>
+                                <p>Gokaraju Rangaraju Institute of Engineering and Technology, JNT University, Hyderabad, India</p>
+                                <p class="timeline-description">
+                                    Relevant Coursework: Data Structures, Object-oriented programming, Software Engineering , DataBase Management Systems, Operating Systems, Computer Networking, , Algorithm design and Analysis, Introduction to AI
+                                </p>
+                                <span class="cgpa">CGPA : 9.5/10</span>
+                            </div>
+                        </div>
+                        <div class="timeline-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                    </div>
+                    <div class="timeline-item left animate-fade-up" style="animation-delay: 0.4s;">
+                        <div class="timeline-content">
+                            <div class="timeline-card">
+                                <h3>Intermediate Education</h3> 
+                                <span class="timeline-date">2019 - 2021</span>
+                                <h4>SSC - State Board</h4>
+                                <p>Sri Chaitanya Junior College</p>
+                                <span class="cgpa">Percentage : 97.6%</span>
+                            </div>
+                        </div>
+                        <div class="timeline-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                    </div>
+                    <div class="timeline-item right animate-fade-up" style="animation-delay: 0.4s;">
+                        <div class="timeline-content">
+                            <div class="timeline-card">
+                                <h3>Secondary Education</h3> 
+                                <span class="timeline-date">2018 - 2019</span>
+                                <h4>CBSE - Central Board of Secondary Education</h4>
+                                <p>D.A.V Public School</p>
+                                <span class="cgpa">Percentage : 96%</span>
+                            </div>
+                        </div>
+                        <div class="timeline-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section">
+            <div class="section-header animate-fade-up">
+                <span class="section-subtitle">MY AWARDS AND ACHIEVEMENTS</span>
+                <h2 class="section-title">ACHIEVEMENTS</h2>
+            </div>
+            <div class="achievements-container">
+                <div class="achievement-item animate-fade-up">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Tech Savishkar 2.0 National-level Hackathon Winner</h3>
+                        <p> Secured 1st place for developing Web-ducation, an AI-powered educational platform, under intense time constraints at Vasavi College of Engineering.</p>
+                    </div>
+                </div>
+                <div class="achievement-item animate-fade-up" style="animation-delay: 0.3s;">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Epitome 2024 National-level Hackathon Winner</h3>
+                        <p> Stood 1st among nationwide participants for building Cropwise Companion, a smart agriculture solution at GRIET.</p>
+                    </div>
+                </div>
+                <div class="achievement-item animate-fade-up" style="animation-delay: 0.5s;">
+                    <div class="achievement-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>3rd Prize Winner - Resonance 2024 Ideathon Competition</h3>
+                        <p>Awarded for proposing a scalable, eco-friendly EV fueling station powered by sustainable energy sources at GRIET.</p>
+                    </div>
+                </div>
+                <div class="achievement-item animate-fade-up" style="animation-delay: 0.5s;">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>2nd Prize Winner -  Throwball Tournment, Annual Sports Fest 2023</h3>
+                        <p> Demonstrated teamwork, strategy, and athletic skill during inter-departmental sports competition at GRIET</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Work Section -->
+        <section id="social-work" class="section">
+            <div class="section-header animate-fade-up">
+                <span class="section-subtitle">COMMUNITY WORK</span>
+                <h2 class="section-title">POSITIONS OF RESPONSIBILITY</h2>
+            </div>
+             <div class="achievements-container">
+                <div class="achievement-item animate-fade-up">
+                    <div class="achievement-content">
+                        <h3>Core Committee Member of IEEE - GRIET</h3>
+                        <div class="container-with-date">
+                        <div class="date-tag">Jan 2023 - Jan 2025</div>
+                        </div>
+                        <p>  Organized technical and non-technical events, including workshops and hackathons. Represented the organization
+ at T-WORKS, India's largest prototyping hub, as an event organizer, contributing to outreach and innovation.</p>
+                    </div>
+                </div>
+                <div class="achievement-item animate-fade-up" style="animation-delay: 0.3s;">
+                    <div class="achievement-content">
+                        <h3>Production Team Member of TEDx GRIET</h3>
+                        <div class="container-with-date">
+                        <div class="date-tag">Mar 2024 - Mar 2025</div>
+                        </div>
+                        <p>  Coordinated content creation and innovation for TED Talks, maximizing audience engagement through thoughtful
+ curation and effective event planning.</p>
+                    </div>
+                </div>
+                <div class="achievement-item animate-fade-up" style="animation-delay: 0.5s;">
+                    <div class="achievement-content">
+                        <h3> Treasurer of WIE - GRIET</h3>
+                        <div class="container-with-date">
+                        <div class="date-tag">Jan 2024 - Jan 2025</div>
+                        </div>
+                        <p>Managed budgeting and resource allocation for women-centric initiatives, including social outreach programs and
+ visits to orphanages and elderly homes, ensuring financial transparency and meaningful community engagement.</p>
+                    </div>
+                </div>
+             </div>    
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+         <section id="contact" class="section">
+        <div class="section-header animate-fade-up">
+            <span class="section-subtitle">GET IN TOUCH</span>
+            <h2 class="section-title">CONTACT</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-intro animate-fade-up">
+                <p>Feel free to reach out for collaborations, job opportunities, or just a friendly hello!</p>
+            </div>
+            
+            <div class="contact-form-wrapper animate-fade-up" style="animation-delay: 0.2s;">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your message here..." required></textarea>
+                    </div>
+                    
+                    <button onclick="sendMail()" type="submit" class="submit-btn" >Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    </main>
+</body>
+</html>
