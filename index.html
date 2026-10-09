@@ -108,8 +108,8 @@ I am an ambitious professional and curious learner with a passion for innovation
                         <h4>Ensora Health - Orlando, Florida, USA</h4>
                         <p class="experience-date">Jun 2026 - Aug 2026</p>
                         <ul class="experience-details">
-                            <li>Engineered a batch inference pipeline with incremental scoring on AWS Athena (34-feature silver store) and implemented cold-start data imputation to probe model degradation, reducing inference error variance by 18% across 419K+ claims.</li>
-                            <li>Developed a FastAPI REST API with JWT authentication and AWS Bedrock (Nova Pro) LLM-generated clinical narratives, and integrated automated validation to detect hallucinations, achieving 92% accuracy with &lt;50ms latency per claim.</li>
+                            <li>Engineered a scalable, fault-tolerant batch inference pipeline on AWS Athena (34-feature silver store) and implemented cold-start data imputation to probe model degradation, reducing inference error variance by 18% across 419K+ claims.</li>
+                            <li>Deployed a low-latency FastAPI inference microservice with JWT authentication and AWS Bedrock (Nova Pro) LLM-generated clinical narratives, optimizing to &lt;50ms latency per claim with 92% accuracy from automated hallucination validation.</li>
                             <li>Integrated SmartClaimsAgent into a multi-agent orchestration platform (ensora-agents) using pydantic-ai and designed and executed test harnesses to probe failure modes in agent coordination, tool-use chains, and hallucination scenarios, identifying and triaging 12 reproducible vulnerabilities by severity and improving output consistency by 34% across agent workflows.</li>
                         </ul>
                         <br>
@@ -133,21 +133,20 @@ I am an ambitious professional and curious learner with a passion for innovation
                         <h4>AI Research Lab - University of Florida, Gainesville, Florida, USA</h4>
                         <p class="experience-date">Sep 2025 - Sep 2026</p>
                         <ul class="experience-details">
-                            <li>Created a multi-agent experimentation framework using LangGraph to automate 95% of experimental workflows, orchestrating LLM pre-training via Megatron-LM and integrating LLM-as-a-Judge evaluation pipelines for reproducible AI experimentation.</li>
-                            <li>Designed an N8N-based interactive AI assistant with contextual memory and API-integrated tool-use capabilities, evaluating human-AI interaction quality through Agent-as-a-Judge frameworks and improving response relevance by 45%.</li>
-                            <li>Containerized the DSSAT crop simulation platform with Docker and deployed scalable environments on Kubernetes, enabling parallel processing across cloud nodes and boosting simulation throughput by 4×.</li>
-                            <li>Migrated DSSAT tasks to AWS using Lambda, EC2, and S3 and set up CI/CD pipelines, reducing initialization time by 92%.</li>
+                            <li>Orchestrated distributed multi-GPU LLM pre-training via Megatron-LM on UF's HiPerGator supercomputer and built a multi-agent experimentation framework using LangGraph that automated 95% of experimental workflows with LLM-as-a-Judge pipelines.</li>
+                            <li>Containerized the DSSAT crop simulation platform with Docker and deployed it as a distributed, scalable system on Kubernetes, enabling parallel processing across cloud nodes and boosting simulation throughput by 4×.</li>
+                            <li>Migrated DSSAT to a cloud-native AWS architecture (Lambda, EC2, S3) and set up CI/CD pipelines, reducing initialization time by 92%.</li>
                         </ul>
                         <br>
                         <div class="portfolio-tags">
-                            <span class="tag">LangGraph</span>
                             <span class="tag">Megatron-LM</span>
-                            <span class="tag">N8N</span>
+                            <span class="tag">HiPerGator</span>
+                            <span class="tag">LangGraph</span>
+                            <span class="tag">LLM-as-a-Judge</span>
                             <span class="tag">Docker</span>
                             <span class="tag">Kubernetes</span>
                             <span class="tag">AWS</span>
                             <span class="tag">CI/CD</span>
-                            <span class="tag">LLM-as-a-Judge</span>
                         </div>
                     </div>
                 </div>
@@ -156,28 +155,24 @@ I am an ambitious professional and curious learner with a passion for innovation
                         <i class="fas fa-briefcase"></i>
                     </div>
                     <div class="experience-content">
-                        <h3>Software Intern</h3>
-                        <h4>BOSCH Global Software Technologies</h4>
+                        <h3>Artificial Intelligence Intern</h3>
+                        <h4>Bosch Global Software Technologies - Hyderabad, India</h4>
                         <p class="experience-date">Feb 2025 - Mar 2025</p>
                         <ul class="experience-details">
-                            <li>Designed and implemented a scalable benchmarking environment to evaluate Agentic AI frameworks (LangChain,
- CrewAI, DSPy, and Autogen), addressing the challenge of inconsistent framework performance across tasks.</li>
-                            <li>Integrated Ollama and OpenAI models to simulate real-world user prompts, enabling intelligent response generation and
- reducing manual testing time by 40%.</li>
-                            <li>Built optimized Retrieval-Augmented Generation (RAG) pipelines using ChromaDB for vector-based search
- on domain-specific manufacturing datasets.</li>
-                            <li>Conducted a comparative analysis across key benchmarking metrics such as Bias Detection Score, Task Completion Rate and Hallucination Rate, leading to data-driven recommendations that improved framework selection
- accuracy by 30% for internal stakeholders.</li>
+                            <li>Developed a scalable benchmarking environment for Agentic AI frameworks such as LangChain, CrewAI, DSPy, and Autogen, enabling 3x faster framework evaluation cycles and improving task consistency.</li>
+                            <li>Transformed Ollama and OpenAI models to optimize Retrieval-Augmented Generation (RAG) pipelines using ChromaDB for vector-based search across knowledge bases in manufacturing, improving automation and retrieval accuracy by 40%.</li>
+                            <li>Evaluated jailbreak robustness and attack surface across frameworks on bias reduction, hallucination rate, faithfulness, and relevance metrics through evaluation pipelines, improving framework selection accuracy by 30% for production deployment.</li>
                         </ul>
                         <br>
                         <div class="portfolio-tags">
                             <span class="tag">Agentic AI</span>
                             <span class="tag">RAG</span>
-                            <span class="tag">VectorDB</span>
-                            <span class="tag">Benchmarking Frameworks</span>
+                            <span class="tag">ChromaDB</span>
                             <span class="tag">LangChain</span>
+                            <span class="tag">CrewAI</span>
+                            <span class="tag">DSPy</span>
                             <span class="tag">Autogen</span>
-                            <span class="tag">Ollama models</span>
+                            <span class="tag">Jailbreak Robustness Testing</span>
                         </div>
                     </div>
                 </div>
@@ -221,14 +216,17 @@ I am an ambitious professional and curious learner with a passion for innovation
                     <div class="portfolio-content">
                         <h3 class="portfolio-title">CROPWISE COMPANION</h3>
                         <p class="portfolio-description">
-                            Developed a smart agriculture web platform with 96% accurate Random Forest-based crop/fertilizer recommendations and image-based plant disease detection. Integrated investor-farmer matchmaking, resolving Flask-frontend integration for real-time data flow.
+                            Built a smart agriculture tool using a Random Forest classifier to recommend crops and fertilizers with 96% accuracy, and an image classification module for early plant disease detection, empowering farmers with data-driven insights. Incorporated an investor-farmer matchmaking interface connecting 50+ farmer profiles with investors, streamlining funding access via PayPal and resolving Flask-frontend integration issues for seamless real-time data flow.
                         </p>
                         <div class="portfolio-tags">
                             <span class="tag">Random Forest Classifier</span>
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">TensorFlow</span>
                             <span class="tag">JavaScript</span>
-                            <span class="tag">HTML/CSS</span>
                             <span class="tag">Flask</span>
+                            <span class="tag">REST API</span>
                             <span class="tag">Firebase</span>
+                            <span class="tag">PayPal API</span>
                         </div>
                         <div class="portfolio-actions">
                             <a href="https://github.com/Harshini1814/CROPWISE-COMPANION" class="view-code-btn">
@@ -246,14 +244,14 @@ I am an ambitious professional and curious learner with a passion for innovation
                     <div class="portfolio-content">
                         <h3 class="portfolio-title">Poverty Estimation using Satellite Imagery </h3>
                         <p class="portfolio-description">
-                            Led the development of a CNN model using ResNet-50 and adversarial training to estimate wealth index from satellite images with 90.8% accuracy, capturing socioeconomic indicators via geospatial mapping and reducing error rate by 25%.
+                            Led the development of a multimodal computer vision pipeline using ResNet-50 to estimate wealth index from satellite images, addressing the lack of scalable poverty detection and achieving 90.8% accuracy through deep geospatial feature extraction. Integrated adversarial training to improve model robustness across regional distributions, reducing the error rate on unseen data by 25% and ensuring reliability across diverse socioeconomic geographies.
                         </p>
                         <div class="portfolio-tags">
+                            <span class="tag">Computer Vision</span>
                             <span class="tag">CNN</span>
                             <span class="tag">ResNet</span>
                             <span class="tag">Remote Sensing</span>
                             <span class="tag">PyTorch</span>
-                            <!-- <span class="tag">APIs</span> -->
                         </div>
                         <div class="portfolio-actions">
                             <a href="https://github.com/Harshini1814/satellite-poverty-estimator" class="view-code-btn">
@@ -290,7 +288,29 @@ I am an ambitious professional and curious learner with a passion for innovation
                             </a>
                         </div>
                     </div>
-                    
+
+                </div>
+                <div class="portfolio-item animate-fade-up" style="animation-delay: 0.2s;">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">TRANQUIL TALK - A CHATBOT FOR MENTAL HEALTH</h3>
+                        <p class="portfolio-description">
+                            Streamlined an NLP-driven mental health chatbot using Google Dialogflow, applying intent recognition and sentiment-aware response flows to deliver empathetic support, resulting in a 60% increase in engagement during pilot testing. The underlying research on this conversational AI was published in Springer at ISSC.
+                        </p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Natural Language Processing</span>
+                            <span class="tag">Sentiment Analysis</span>
+                            <span class="tag">Google Dialogflow</span>
+                        </div>
+                        <div class="portfolio-actions">
+                            <a href="https://doi.org/10.1007/978-981-95-9097-1_21" class="view-code-btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="16,18 22,12 16,6"></polyline>
+                                    <polyline points="8,6 2,12 8,18"></polyline>
+                                </svg>
+                                View Research Paper
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -313,46 +333,75 @@ I am an ambitious professional and curious learner with a passion for innovation
                         <span class="skill-tag">C++</span>
                         <span class="skill-tag">C</span>
                         <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Rust</span>
+                        <span class="skill-tag">Go</span>
+                        <span class="skill-tag">CUDA (GPU Programming)</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Bash</span>
+                        <span class="skill-tag">Object-Oriented Design</span>
                         <span class="skill-tag">HTML</span>
                         <span class="skill-tag">CSS</span>
-                        <span class="skill-tag">JavaScript</span>
                         <span class="skill-tag">R</span>
+                    </div>
+                </div>
+                <div class="expertise-category animate-fade-up" style="animation-delay: 0.2s;">
+                    <h3>Web &amp; Cloud</h3>
+                    <div class="skills">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">GCP</span>
+                        <span class="skill-tag">Distributed Systems</span>
+                        <span class="skill-tag">Microservices</span>
+                        <span class="skill-tag">RESTful APIs</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Node.js</span>
                     </div>
                 </div>
                 <div class="expertise-category animate-fade-up" style="animation-delay: 0.2s;">
                     <h3>Technologies</h3>
                     <div class="skills">
-                        <span class="skill-tag">AWS Cloud</span>
+                        <span class="skill-tag">LLMs</span>
+                        <span class="skill-tag">Generative AI</span>
+                        <span class="skill-tag">Distributed Training</span>
+                        <span class="skill-tag">On-device ML</span>
+                        <span class="skill-tag">Model Optimization</span>
+                        <span class="skill-tag">Reinforcement Learning</span>
                         <span class="skill-tag">Machine Learning</span>
                         <span class="skill-tag">Natural Language Processing</span>
-                        <span class="skill-tag">Internet of Things</span>
-                        <span class="skill-tag">Agentic AI</span>
-                        <span class="skill-tag">Data Analysis</span>
                         <span class="skill-tag">Computer Vision</span>
-                        <span class="skill-tag">Generative AI</span>
+                        <span class="skill-tag">Agentic AI</span>
+                        <span class="skill-tag">Internet of Things</span>
+                        <span class="skill-tag">Data Analysis</span>
                         <span class="skill-tag">WordPress</span>
                     </div>
                 </div>
                 <div class="expertise-category animate-fade-up" style="animation-delay: 0.3s;">
                     <h3>Frameworks</h3>
                     <div class="skills">
-                        <span class="skill-tag">Langchain</span>
-                        <span class="skill-tag">Numpy</span>
+                        <span class="skill-tag">JAX</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">Keras</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">NumPy</span>
                         <span class="skill-tag">Pandas</span>
                         <span class="skill-tag">Matplotlib</span>
-                        <span class="skill-tag">Tensorflow</span>
-                        <span class="skill-tag">Flask</span>
-                        <span class="skill-tag">PyTorch</span>
-                        <span class="skill-tag">Scikit-learn</span>
                         <span class="skill-tag">OpenCV</span>
+                        <span class="skill-tag">XGBoost</span>
+                        <span class="skill-tag">LlamaIndex</span>
+                        <span class="skill-tag">LangChain</span>
+                        <span class="skill-tag">Flask</span>
                     </div>
                 </div>
                 <div class="expertise-category animate-fade-up" style="animation-delay: 0.3s;">
                     <h3>Databases</h3>
                     <div class="skills">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
                         <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">Firebase</span>
                         <span class="skill-tag">Oracle</span>
+                        <span class="skill-tag">Firebase</span>
                         <span class="skill-tag">ChromaDB</span>
                         <span class="skill-tag">Pinecone</span>
                     </div>
@@ -363,9 +412,14 @@ I am an ambitious professional and curious learner with a passion for innovation
                         <span class="skill-tag">Git</span>
                         <span class="skill-tag">GitHub</span>
                         <span class="skill-tag">Linux/ Unix</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Unit &amp; Integration Testing</span>
+                        <span class="skill-tag">PowerBI</span>
                         <span class="skill-tag">Tableau</span>
                         <span class="skill-tag">Figma</span>
-                        <span class="skill-tag">JIRA</span>
+                        <span class="skill-tag">JIRA (Agile)</span>
                         <span class="skill-tag">VS Code</span>
                         <span class="skill-tag">MacOS</span>
                         <span class="skill-tag">Windows</span>
@@ -409,7 +463,7 @@ I am an ambitious professional and curious learner with a passion for innovation
                             <span class="tag">Google Dialogflow</span>
                         </div>
                         <div class="portfolio-actions">
-                            <a href="#" class="view-code-btn">
+                            <a href="https://doi.org/10.1007/978-981-95-9097-1_21" class="view-code-btn">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <polyline points="16,18 22,12 16,6"></polyline>
                                     <polyline points="8,6 2,12 8,18"></polyline>
@@ -536,6 +590,15 @@ I am an ambitious professional and curious learner with a passion for innovation
             </div>
             <div class="achievements-container">
                 <div class="achievement-item animate-fade-up">
+                    <div class="achievement-icon">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>ShellHacks 2026 - Best Use of Snowflake API</h3>
+                        <p>Won the Best Use of Snowflake API award at ShellHacks 2026, a national-level hackathon hosted by Florida International University.</p>
+                    </div>
+                </div>
+                <div class="achievement-item animate-fade-up" style="animation-delay: 0.2s;">
                     <div class="achievement-icon">
                         <i class="fas fa-award"></i>
                     </div>
